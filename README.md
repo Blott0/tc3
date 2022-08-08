@@ -7,6 +7,10 @@
 - add component for selecting and displaying data over selected period
 - import graph module and compose graphs
 
+## comments
+
+- the links to station overview and detail graphs trigger no-cors restriciton, need some other way to reach those components without entering url manually
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
