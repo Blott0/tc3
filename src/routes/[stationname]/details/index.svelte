@@ -45,7 +45,7 @@
     let temperature = []
 
     $:startDateMs = Date.parse(startDateParsed)
-    $:endDateMs = Date.parse(endDateParsed)
+    $:endDateMs = Date.parse(endDateParsed) + 1000 * 60 * 60 * 24
     $:newUrl = '/' + stationName + '/details?startDate=' + startDateMs + '&endDate=' + endDateMs
 
     dataArray.forEach(set => {
