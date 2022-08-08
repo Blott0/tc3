@@ -1,18 +1,11 @@
-# create-svelte
+# testcase 3
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Approach
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- change app to display recent station date on main route
+- add component for displaying all data from a station
+- add component for selecting and displaying data over selected period
+- import graph module and compose graphs
 
 ## Developing
 
