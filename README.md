@@ -9,7 +9,8 @@
 
 ## comments
 
-- the links to station overview and detail graphs trigger no-cors restriciton, need some other way to reach those components without entering url manually
+- the links to station overview and detail graphs trigger no-cors restriciton, need some other way to reach those endpoints without entering url manually
+- layout looking for eweather logo png in the wrong place..
 
 ## Developing
 
