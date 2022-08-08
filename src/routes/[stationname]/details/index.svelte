@@ -48,8 +48,6 @@
     $:endDateMs = Date.parse(endDateParsed)
     $:newUrl = '/' + stationName + '/details?startDate=' + startDateMs + '&endDate=' + endDateMs
 
-    $:console.log(newUrl)
-
     dataArray.forEach(set => {
         date.push(convertDate(set.date))
         feeltemperature.push(set.feeltemperature)
