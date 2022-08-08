@@ -1,8 +1,6 @@
 <script context="module">
 
     export async function load({ params, fetch, session, stuff }) {
-
-        console.log(params.stationname)
         
         const res = await fetch(`http://localhost:3001/` + params.stationname)
         const dataArray = await res.json()
